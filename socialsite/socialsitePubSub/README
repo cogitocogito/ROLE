@@ -1,0 +1,5 @@
+This patch will get the pubsub feature working for an SocialSite installation in Glassfish.
+
+1. Edit the socialsite.props file and specify the variable GLASSFISH_HOME
+2. If your domain is located outside GLASSFISH_HOME you have also to specify DOMAIN_PATH
+3. run: ant -f adapt-socialsite.xml
